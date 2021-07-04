@@ -1,0 +1,54 @@
+body {
+  margin: 0em;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Vollkorn", serif;
+}
+
+.cover {
+  height: 400px;
+  background-image: url(https://cdn.glitch.com/6e11e7e6-745e-4999-8803-4600f26fa00f%2Frsz_janko-ferlic-h9iq22jjlgk-unsplash.jpg?v=1625415133722);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+.cover-small {
+  height: 200px;
+  background-blend-mode: normal;
+}
+
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.6);
+}
+
+.card-title {
+  min-height: 3rem;
+}
+.card.text {
+  min.height: 10rem;
+}
+.stripe-container{
+  display:flex;
+
+}
+.product-stripe{
+  overflow-x:scroll;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+.stripe-container .card{
+  width:300px;
+  flex-shrink:0;
+  margin-right:1rem;
+}
